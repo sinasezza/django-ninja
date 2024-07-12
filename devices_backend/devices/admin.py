@@ -4,7 +4,7 @@ from .models import Device, Location
 
 @admin.register(Device)
 class DeviceAdmin(admin.ModelAdmin):
-    pass
+    list_display = ("id", 'name', 'location')
 
 
 @admin.register(Location)
