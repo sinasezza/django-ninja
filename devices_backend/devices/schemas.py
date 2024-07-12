@@ -13,4 +13,4 @@ class DeviceSchema(ModelSchema):
     
     class Meta:
         model = Device
-        fields = ("id", "name", "slug" "location")
+        fields = ("id", "name", "slug", "location")
